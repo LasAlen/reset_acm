@@ -1,4 +1,12 @@
+## Shterm lookup plugin
+This Shterm plugin provides the ability to look up shterm-appmgr values in playbooks
 
+
+## Required 
+using this plugin, 
+
+## Installation
+Install the reset_acm role using the following syntax:
 
 ## Recommendations
 
