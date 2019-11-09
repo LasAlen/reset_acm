@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 from ansible.plugins.lookup import LookupBase
-from lookup_plugins import pwdlib
-
+from .sdk import pwdlib
 class LookupModule(LookupBase):
     def retrieve_secrets(self, terms):
         secrets = []
